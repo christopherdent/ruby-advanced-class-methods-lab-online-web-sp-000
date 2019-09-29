@@ -65,6 +65,7 @@ class Song
      
       song.name = array[1] 
       song.artist_name = array[0]
+<<<<<<< HEAD
     
       song 
   end 
@@ -81,5 +82,21 @@ class Song
   
   
     
+=======
+ 
+    
+  end 
+  
+  
+  
+    
+  def playing
+    puts "playing"
+    p self 
+ 
+ 
+  end 
+    
+>>>>>>> 9a3612bf3f7ae66f9b08a69f3ea09e2ba9335a2f
 
 end     
